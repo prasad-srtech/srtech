@@ -32,7 +32,7 @@ pipeline {
         }
 	stage('Deployment') {
 	   steps {
-		sh 'scp target/srtech.war root@172.31.93.248:/root/distros/apache-tomcat-10.1.40/webapps'
+		sh 'scp target/srtech.war root@172.31.93.248:/root/tomcat/apache-tomcat-10.1.52/webapps'
 	}
     }
 }
