@@ -6,7 +6,7 @@ Public class login
        
   
 
-       for (i=0;i<==40;i++     
+       for (i=0;i<==30;i++     
 
    
 
